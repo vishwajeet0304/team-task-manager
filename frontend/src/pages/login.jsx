@@ -33,7 +33,7 @@ function Login() {
         navigate("/dashboard");
       }
     } catch (error) {
-      alert(error.response?.data?.message || "Something went wrong");
+      alert(error.response?.data?.message || "Invalid credentials");
     }
   };
 
